@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/jan/.vim/plugged/vim-bitbake/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+BBHeader	plugin/newbb.vim	/^fun! BBHeader()$/;"	f
+BitbakeIndent	indent/bitbake.vim	/^function BitbakeIndent(lnum)$/;"	f
+GetBitbakePythonIndent	indent/bitbake.vim	/^function GetBitbakePythonIndent(lnum)$/;"	f
+GetUserEmail	plugin/newbb.vim	/^fun! <SID>GetUserEmail()$/;"	f
+GetUserName	plugin/newbb.vim	/^fun! <SID>GetUserName()$/;"	f
+NewBB	plugin/newbb.vim	/^augroup NewBB$/;"	a
+NewBBAppend	plugin/newbbappend.vim	/^augroup NewBBAppend$/;"	a
+NewBBAppendTemplate	plugin/newbbappend.vim	/^fun! NewBBAppendTemplate()$/;"	f
+NewBBTemplate	plugin/newbb.vim	/^fun! NewBBTemplate()$/;"	f
+b:current_syntax	syntax/bitbake.vim	/^let b:current_syntax = "bb"$/;"	v
+b:did_ftplugin	ftplugin/bitbake.vim	/^let b:did_ftplugin = 1$/;"	v
+b:did_indent	indent/bitbake.vim	/^let b:did_indent = 1$/;"	v
+b:undo_ftplugin	ftplugin/bitbake.vim	/^let b:undo_ftplugin = "setl cms< sts< sw< et< sua<"$/;"	v
+g:bb_create_on_empty	plugin/newbb.vim	/^    let g:bb_create_on_empty = 0$/;"	v
+g:bb_create_on_empty	plugin/newbb.vim	/^    let g:bb_create_on_empty = 1$/;"	v
+g:bb_create_on_empty	plugin/newbbappend.vim	/^    let g:bb_create_on_empty = 0$/;"	v
+g:bb_create_on_empty	plugin/newbbappend.vim	/^    let g:bb_create_on_empty = 1$/;"	v
+s:is_bb_python_func_def	indent/bitbake.vim	/^function s:is_bb_python_func_def(lnum)$/;"	f
+s:keepcpo	indent/bitbake.vim	/^let s:keepcpo= &cpo$/;"	v
+s:maxoff	indent/bitbake.vim	/^let s:maxoff = 50	" maximum number of lines to look backwards for ()$/;"	v

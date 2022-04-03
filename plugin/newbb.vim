@@ -20,6 +20,7 @@ fun! <SID>GetUserName()
         return "Unknown User"
     else
         return substitute(l:user_name, "\n", "", "")
+    endif
 endfun
 
 fun! <SID>GetUserEmail()
@@ -28,6 +29,7 @@ fun! <SID>GetUserEmail()
         return "unknown@user.org"
     else
         return substitute(l:user_email, "\n", "", "")
+    endif
 endfun
 
 fun! BBHeader()
@@ -47,14 +49,14 @@ fun! NewBBTemplate()
 
     let l:paste = &paste
     set nopaste
-    
+
     " Get the header
     call BBHeader()
 
     " New the bb template
     put ='SUMMARY = \"\"'
     put ='HOMEPAGE = \"\"'
-    put ='LICENSE = \"\"' 
+    put ='LICENSE = \"\"'
     put ='SECTION = \"\"'
     put ='DEPENDS = \"\"'
     put =''
