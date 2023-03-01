@@ -20,7 +20,7 @@ fun! NewBBAppendTemplate()
     set nopaste
 
     " New bbappend template
-    0 put ='FILESEXTRAPATHS:prepend := \"${THISDIR}/${PN}:\"'
+    0 put ='FILESEXTRAPATHS:prepend := \"${THISDIR}/${BPN}:\"'
     2
 
     if paste == 1
